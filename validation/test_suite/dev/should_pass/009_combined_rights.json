@@ -1,9 +1,9 @@
 {
   "uri": "009_combined_rights.json",
-  "title": "Title of my ninjs dev image which is protected by dataco restrictions",
-  "linkedrights": "https://www.football-dataco.com/",
+  "title": "A document which uses embedded ODRL rights and linked rights",
+  "linkedrights": "http://example.com/policy:3433",
   "encodedrights": {
-    "langid": "https://rights-lang-location",
-    "rightsExpression_dataco": "rights expression"
+    "langid": "http://www.w3.org/ns/odrl/2/jsonschema#",
+    "rightsExpression_noCommercial": "{\"policytype\":\"http://www.w3.org/ns/odrl/2/Agreement\",\"policyid\":\"http://example.com/policy:3433\",\"conflict\":\"perm\",\"prohibitions\":[{\"target\":\"http://example.com/image:1234908\",\"action\":\"http://www.w3.org/ns/odrl/2/commercialize\",\"assigner\":\"http://example.com/cv/party/pamediagroup\",\"assignee\":\"http://example.com/cv/partygroup/pamediagrouppartners\"}]}"
   }
 }

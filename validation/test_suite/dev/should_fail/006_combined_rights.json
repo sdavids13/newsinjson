@@ -1,6 +1,6 @@
 {
   "uri": "009_combined_rights.json",
-  "title": "Title of my ninjs dev image which is protected by dataco restrictions",
+  "title": "A document which uses both linked and embedded rights incorrectly",
   "linkedrights": {
   },
   "encodedrights": "some special instructions"

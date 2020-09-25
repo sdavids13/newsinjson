@@ -1,7 +1,7 @@
 {
   "uri": "004_linked_rights.json",
-  "title": "Title of my ninjs dev image which is protected by dataco restrictions",
+  "title": "A document that uses linked rights incorrectly",
   "linkedrights": {
-    "uri": "https://www.football-dataco.com/"
+    "uri": "http://example.com/policy:3433"
   }
 }
